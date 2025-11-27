@@ -1,0 +1,34 @@
+# Backend
+backend/venv
+backend/__pycache__
+backend/**/__pycache__
+backend/*.pyc
+backend/.env
+backend/results/*
+!backend/results/.gitkeep
+
+# Frontend
+frontend/node_modules
+frontend/.next
+frontend/.vercel
+frontend/.env*.local
+frontend/out
+
+# General
+.git
+.gitignore
+*.md
+!README.md
+.DS_Store
+*.log
+.vscode
+.idea
+temp/
+documentation/
+
+# Keep necessary files
+!backend/requirements.txt
+!frontend/package.json
+!frontend/pnpm-lock.yaml
+
+
